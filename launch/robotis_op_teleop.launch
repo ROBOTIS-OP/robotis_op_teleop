@@ -1,0 +1,8 @@
+<launch>
+ <!-- todo add
+  <param name="scale_linear" value="2" type="double"/>
+  <param name="scale_angular" value="2" type="double"/>
+-->
+  <node pkg="robotis_op_teleop" type="robotis_op_teleop" name="teleop" output="screen"/>
+
+</launch>
