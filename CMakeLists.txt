@@ -6,7 +6,6 @@ project(robotis_op_teleop)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge
-  gazebo_msgs
   geometry_msgs
   joy
   nav_msgs

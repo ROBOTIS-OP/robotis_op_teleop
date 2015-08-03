@@ -42,7 +42,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>cv_bridge</build_depend>
   <build_depend>gazebo_msgs</build_depend>
-  <build_depend>geometry_msgs</build_depend>
   <build_depend>joy</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>roscpp</build_depend>
@@ -52,7 +51,6 @@
   <build_depend>tf</build_depend>
 
   <run_depend>cv_bridge</run_depend>
-  <run_depend>gazebo_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>joy</run_depend>
   <run_depend>nav_msgs</run_depend>
