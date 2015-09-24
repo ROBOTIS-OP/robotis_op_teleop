@@ -170,5 +170,7 @@ include_directories(
 # catkin_add_nosetests(test)
 
 
-add_executable(robotis_op_teleop src/robotis_op_teleop.cpp)
-target_link_libraries(robotis_op_teleop ${catkin_LIBRARIES})
+add_executable(robotis_op_teleop_keyboard src/robotis_op_teleop_keyboard.cpp)
+add_executable(robotis_op_teleop_xbox360_controller src/robotis_op_teleop_xbox360_controller.cpp)
+target_link_libraries(robotis_op_teleop_keyboard ${catkin_LIBRARIES})
+target_link_libraries(robotis_op_teleop_xbox360_controller ${catkin_LIBRARIES})

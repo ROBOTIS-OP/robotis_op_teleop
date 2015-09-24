@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="joy_node/dev" value="/dev/input/js1" type="string"/>
+  <param name="scale_linear" value="2" type="double"/>
+  <param name="scale_angular" value="2" type="double"/>
+  <param name="axis_linear_forwards" value="1" type="double"/>
+  <param name="axis_linear_sidewards" value="0" type="double"/>
+  <param name="axis_angular_left" value="2" type="int"/>
+  <param name="axis_angular_right" value="5" type="int"/>
+  <param name="head_pan" value="3" type="int"/>
+  <param name="head_tilt" value="4" type="int"/>
+
+  <node pkg="joy" type="joy_node" name="joy_node" output="screen"/>
+  <node pkg="robotis_op_teleop" type="robotis_op_teleop_xbox360_controller" name="teleop" output="screen"/>
+
+</launch>
